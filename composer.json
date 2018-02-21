@@ -13,5 +13,10 @@
     "require": {},
     "autoload": {
         "classmap": ["lib/JpGraph.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0.2-dev"
+        }
     }
 }
