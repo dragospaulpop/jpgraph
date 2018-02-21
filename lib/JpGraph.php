@@ -11,7 +11,7 @@ class JpGraph {
     }
     static function module($moduleName){
         self::load();
-        if(!in_array($moduleName,self::$modules)){
+        if(!in_array($moduleName,self::$modules)){  // lowercase
             $path = __DIR__.'/jpgraph/src/jpgraph_'.$moduleName.'.php' ;
             if(file_exists($path)){
                 include_once $path ;
